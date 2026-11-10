@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "zhanguoce",
+  "title": "戰國策",
+  "titleSimp": "战国策",
+  "compiler": "劉向",
+  "era": "西漢",
+  "form": "國別體",
+  "sources": [
+    {
+      "name": "Classical-Modern（crazyxiaoqiang）双语数据·战国策",
+      "url": "https://github.com/crazyxiaoqiang/Classical-Modern",
+      "license": "public-domain"
+    },
+    {
+      "name": "zhanguoce（Ancient-China-Books）EPUB 繁体底本",
+      "url": "https://github.com/Ancient-China-Books/zhanguoce",
+      "license": "public-domain"
+    }
+  ],
+  "groups": [
+    {
+      "id": "dongzhou",
+      "title": "東周",
+      "titleSimp": "东周",
+      "volumes": [
+        "dongzhou"
+      ]
+    },
+    {
+      "id": "xizhou",
+      "title": "西周",
+      "titleSimp": "西周",
+      "volumes": [
+        "xizhou"
+      ]
+    },
+    {
+      "id": "qin",
+      "title": "秦策",
+      "titleSimp": "秦策",
+      "volumes": [
+        "qin-1",
+        "qin-2",
+        "qin-3",
+        "qin-4",
+        "qin-5"
+      ]
+    },
+    {
+      "id": "qi",
+      "title": "齊策",
+      "titleSimp": "齐策",
+      "volumes": [
+        "qi-1",
+        "qi-2",
+        "qi-3",
+        "qi-4",
+        "qi-5",
+        "qi-6"
+      ]
+    },
+    {
+      "id": "chu",
+      "title": "楚策",
+      "titleSimp": "楚策",
+      "volumes": [
+        "chu-1",
+        "chu-2",
+        "chu-3",
+        "chu-4"
+      ]
+    },
+    {
+      "id": "zhao",
+      "title": "趙策",
+      "titleSimp": "赵策",
+      "volumes": [
+        "zhao-1",
+        "zhao-2",
+        "zhao-3",
+        "zhao-4"
+      ]
+    },
+    {
+      "id": "wei",
+      "title": "魏策",
+      "titleSimp": "魏策",
+      "volumes": [
+        "wei-1",
+        "wei-2",
+        "wei-3",
+        "wei-4"
+      ]
+    },
+    {
+      "id": "han",
+      "title": "韓策",
+      "titleSimp": "韩策",
+      "volumes": [
+        "han-1",
+        "han-2",
+        "han-3"
+      ]
+    },
+    {
+      "id": "yan",
+      "title": "燕策",
+      "titleSimp": "燕策",
+      "volumes": [
+        "yan-1",
+        "yan-2",
+        "yan-3"
+      ]
+    },
+    {
+      "id": "song-wei",
+      "title": "宋衛策",
+      "titleSimp": "宋卫策",
+      "volumes": [
+        "song-wei"
+      ]
+    },
+    {
+      "id": "zhongshan",
+      "title": "中山策",
+      "titleSimp": "中山策",
+      "volumes": [
+        "zhongshan"
+      ]
+    }
+  ],
+  "volumeOrder": [
+    "dongzhou",
+    "xizhou",
+    "qin-1",
+    "qin-2",
+    "qin-3",
+    "qin-4",
+    "qin-5",
+    "qi-1",
+    "qi-2",
+    "qi-3",
+    "qi-4",
+    "qi-5",
+    "qi-6",
+    "chu-1",
+    "chu-2",
+    "chu-3",
+    "chu-4",
+    "zhao-1",
+    "zhao-2",
+    "zhao-3",
+    "zhao-4",
+    "wei-1",
+    "wei-2",
+    "wei-3",
+    "wei-4",
+    "han-1",
+    "han-2",
+    "han-3",
+    "yan-1",
+    "yan-2",
+    "yan-3",
+    "song-wei",
+    "zhongshan"
+  ]
+}

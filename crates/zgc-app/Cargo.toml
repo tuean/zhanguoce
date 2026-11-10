@@ -1,0 +1,19 @@
+[package]
+name = "zgc-app"
+description = "Server-rendered reader (HTML over hand-written HTTP/1.1) for the 戰國策 study app."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "zgc-app"
+path = "src/main.rs"
+
+[dependencies]
+zgc-core = { path = "../zgc-core" }
+# HTTPS client for the AI companion. rustls only — never the system OpenSSL.
+# The key travels in a header, never in argv, so no `ps` leak.
+ureq = { version = "2.12", default-features = false, features = ["tls", "json"] }
+serde_json = "1.0"

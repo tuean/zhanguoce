@@ -1,0 +1,3655 @@
+{
+ "schemaVersion": 1,
+ "bookId": "zhanguoce",
+ "source": "通鑑戰國段事件表 + 戰國策注疏系年",
+ "generatedBy": "tools/build_chapter_years.py",
+ "thresholds": {
+  "L_MIN": 8,
+  "DF_MAX": 2,
+  "MARGIN": 2,
+  "HIGH_L": 14
+ },
+ "chapters": [
+  {
+   "chapterId": "chu-1-03",
+   "yearBc": 353,
+   "yearRange": [
+    353,
+    353
+   ],
+   "confidence": "medium",
+   "method": "name-window",
+   "evidence": [
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "name-window",
+     "names": [
+      "昭奚恤",
+      "江乙"
+     ],
+     "score": 0.55
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-1-04",
+   "yearBc": 353,
+   "yearRange": [
+    353,
+    353
+   ],
+   "confidence": "medium",
+   "method": "name-window",
+   "evidence": [
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "name-window",
+     "names": [
+      "昭奚恤",
+      "江乙"
+     ],
+     "score": 0.55
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-1-06",
+   "yearBc": 353,
+   "yearRange": [
+    353,
+    353
+   ],
+   "confidence": "medium",
+   "method": "name-window",
+   "evidence": [
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "name-window",
+     "names": [
+      "昭奚恤",
+      "江乙"
+     ],
+     "score": 0.55
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-1-08",
+   "yearBc": 353,
+   "yearRange": [
+    353,
+    353
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "substring",
+     "matched": "狗嘗溺井其鄰人見",
+     "score": 0.27,
+     "length": 8,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "name-overlap",
+     "names": [
+      "昭奚恤",
+      "江乙"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-1-09",
+   "yearBc": 353,
+   "yearRange": [
+    353,
+    353
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "substring",
+     "matched": "以王好聞人之美而惡聞人之惡也王曰善寡人願兩聞之",
+     "score": 0.77,
+     "length": 23,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0353-p46",
+     "kind": "name-overlap",
+     "names": [
+      "昭奚恤",
+      "江乙"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-1-17",
+   "yearBc": 333,
+   "yearRange": [
+    333,
+    333
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0333-p110",
+     "kind": "substring",
+     "matched": "里帶甲百萬車千乘騎萬匹粟支十年此霸王之資也",
+     "score": 0.7,
+     "length": 21,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0333-p110",
+     "kind": "name-overlap",
+     "names": [
+      "楚威王"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-1-18",
+   "yearBc": 311,
+   "yearRange": [
+    311,
+    311
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0311-p39",
+     "kind": "substring",
+     "matched": "則北地絕秦兵之攻楚也危難在三月之內而楚",
+     "score": 0.63,
+     "length": 19,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0311-p39",
+     "kind": "name-overlap",
+     "names": [
+      "張儀"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-2-05",
+   "yearBc": 311,
+   "yearRange": [
+    311,
+    311
+   ],
+   "confidence": "medium",
+   "method": "name-window",
+   "evidence": [
+    {
+     "eventId": "tj-y0311-p39",
+     "kind": "name-window",
+     "names": [
+      "楚懷王",
+      "鄭袖"
+     ],
+     "score": 0.55
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "chu-4-12",
+   "yearBc": 238,
+   "yearRange": [
+    238,
+    238
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0238-p86",
+     "kind": "substring",
+     "matched": "楚考烈王無子春申君患之求婦人宜子者",
+     "score": 0.57,
+     "length": 17,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0238-p86",
+     "kind": "name-overlap",
+     "names": [
+      "春申君",
+      "考烈王"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-1-04",
+   "yearBc": 351,
+   "yearRange": [
+    351,
+    351
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0351-p55",
+     "kind": "substring",
+     "matched": "我將奚聽乎申子乃辟舍請罪曰君",
+     "score": 0.47,
+     "length": 14,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-1-05",
+   "yearBc": 333,
+   "yearRange": [
+    333,
+    333
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0333-p107",
+     "kind": "substring",
+     "matched": "夫以大王之賢挾強韓之兵而有牛後之名臣竊爲大王羞之韓王",
+     "score": 0.87,
+     "length": 26,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0333-p107",
+     "kind": "name-overlap",
+     "names": [
+      "蘇秦"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-1-06",
+   "yearBc": 311,
+   "yearRange": [
+    311,
+    311
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0311-p40",
+     "kind": "substring",
+     "matched": "夫戰孟賁烏獲之士以攻不服之弱國無",
+     "score": 0.53,
+     "length": 16,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0311-p40",
+     "kind": "name-overlap",
+     "names": [
+      "張儀"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-1-07",
+   "yearBc": 321,
+   "yearRange": [
+    321,
+    321
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0321-p152",
+     "kind": "substring",
+     "matched": "用犀首張儀而西河之外亡今",
+     "score": 0.4,
+     "length": 12,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0321-p152",
+     "kind": "name-overlap",
+     "names": [
+      "公仲",
+      "張儀",
+      "犀首"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-1-19",
+   "yearBc": 308,
+   "yearRange": [
+    308,
+    308
+   ],
+   "confidence": "medium",
+   "method": "name-window",
+   "evidence": [
+    {
+     "eventId": "tj-y0308-p57",
+     "kind": "name-window",
+     "names": [
+      "公仲",
+      "向壽"
+     ],
+     "score": 0.55
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-1-24",
+   "yearBc": 241,
+   "yearRange": [
+    241,
+    241
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0241-p70",
+     "kind": "substring",
+     "matched": "攻楚不可今則不然魏",
+     "score": 0.3,
+     "length": 9,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-2-22",
+   "yearBc": 397,
+   "yearRange": [
+    397,
+    397
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0397-p52",
+     "kind": "substring",
+     "matched": "老母在政身未敢以許人也",
+     "score": 0.37,
+     "length": 11,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0397-p52",
+     "kind": "name-overlap",
+     "names": [
+      "聶政"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "han-3-15",
+   "yearBc": 273,
+   "yearRange": [
+    273,
+    273
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0273-p104",
+     "kind": "substring",
+     "matched": "曰未急也穰侯怒曰",
+     "score": 0.27,
+     "length": 8,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0273-p104",
+     "kind": "name-overlap",
+     "names": [
+      "穰侯"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-1-03",
+   "yearBc": 321,
+   "yearRange": [
+    321,
+    321
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0321-p147",
+     "kind": "substring",
+     "matched": "大魚乎網不能止鉤不能牽蕩而失水則螻蟻",
+     "score": 0.6,
+     "length": 18,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0321-p147",
+     "kind": "name-overlap",
+     "names": [
+      "靖郭君"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-1-04",
+   "yearBc": 321,
+   "yearRange": [
+    321,
+    321
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0321-p146",
+     "kind": "substring",
+     "matched": "齊王曰五官之計不可不日聽而數覽",
+     "score": 0.5,
+     "length": 15,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0321-p146",
+     "kind": "name-overlap",
+     "names": [
+      "靖郭君"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-1-07",
+   "yearBc": 341,
+   "yearRange": [
+    341,
+    341
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0341-p74",
+     "kind": "substring",
+     "matched": "結韓之親而晚承魏之",
+     "score": 0.3,
+     "length": 9,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-1-08",
+   "yearBc": 341,
+   "yearRange": [
+    341,
+    341
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0341-p76",
+     "kind": "substring",
+     "matched": "市曰我田忌之人也",
+     "score": 0.27,
+     "length": 8,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0341-p76",
+     "kind": "name-overlap",
+     "names": [
+      "田忌",
+      "鄒忌"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-1-16",
+   "yearBc": 333,
+   "yearRange": [
+    333,
+    333
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0333-p109",
+     "kind": "substring",
+     "matched": "十日而戰勝存亡之機決矣韓魏戰而勝秦則兵半折四境不守戰而不勝",
+     "score": 0.97,
+     "length": 29,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0333-p109",
+     "kind": "name-overlap",
+     "names": [
+      "蘇秦"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-1-17",
+   "yearBc": 311,
+   "yearRange": [
+    311,
+    311
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0311-p41",
+     "kind": "substring",
+     "matched": "兵強士勇雖有百秦將無",
+     "score": 0.33,
+     "length": 10,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0311-p41",
+     "kind": "name-overlap",
+     "names": [
+      "張儀"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-2-02",
+   "yearBc": 310,
+   "yearRange": [
+    310,
+    310
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0310-p46",
+     "kind": "substring",
+     "matched": "不能相去王以其間伐韓入三川",
+     "score": 0.43,
+     "length": 13,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0310-p46",
+     "kind": "name-overlap",
+     "names": [
+      "張儀"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-2-07",
+   "yearBc": 260,
+   "yearRange": [
+    260,
+    260
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0260-p44",
+     "kind": "substring",
+     "matched": "齒之有脣也脣亡則齒寒今日亡趙",
+     "score": 0.47,
+     "length": 14,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-3-09",
+   "yearBc": 321,
+   "yearRange": [
+    321,
+    321
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0321-p150",
+     "kind": "substring",
+     "matched": "書門版曰有能揚文之名止文之過私得寶",
+     "score": 0.57,
+     "length": 17,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0321-p150",
+     "kind": "name-overlap",
+     "names": [
+      "孟嘗君"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-4-10",
+   "yearBc": 288,
+   "yearRange": [
+    288,
+    288
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0288-p37",
+     "kind": "substring",
+     "matched": "秦使魏冉致帝子以爲何如對曰",
+     "score": 0.43,
+     "length": 13,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0288-p37",
+     "kind": "name-overlap",
+     "names": [
+      "魏冉"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-01",
+   "yearBc": 284,
+   "yearRange": [
+    284,
+    284
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0284-p52",
+     "kind": "substring",
+     "matched": "千乘博昌之間方數百里雨血沾衣王知之乎",
+     "score": 0.6,
+     "length": 18,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0284-p52",
+     "kind": "name-overlap",
+     "names": [
+      "淖齒"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-02",
+   "yearBc": 283,
+   "yearRange": [
+    283,
+    283
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0283-p63",
+     "kind": "substring",
+     "matched": "朝出而晚來則吾倚門而望",
+     "score": 0.37,
+     "length": 11,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0283-p63",
+     "kind": "name-overlap",
+     "names": [
+      "淖齒",
+      "王孫賈"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-03",
+   "yearBc": 250,
+   "yearRange": [
+    250,
+    250
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0250-p28",
+     "kind": "substring",
+     "matched": "書約之矢以射城中遺燕將",
+     "score": 0.37,
+     "length": 11,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0250-p28",
+     "kind": "name-overlap",
+     "names": [
+      "田單"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-04",
+   "yearBc": 279,
+   "yearRange": [
+    279,
+    279
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0279-p85",
+     "kind": "substring",
+     "matched": "對曰王不如因以爲己善王嘉單之善下令曰寡人憂民之飢也單收而食之寡人憂民之寒也單解裘而衣之寡人憂勞百姓而單亦憂",
+     "score": 1.77,
+     "length": 53,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0279-p85",
+     "kind": "name-overlap",
+     "names": [
+      "田單"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-05",
+   "yearBc": 279,
+   "yearRange": [
+    279,
+    279
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0279-p86",
+     "kind": "substring",
+     "matched": "王上者孰與周文王王曰吾不若也貂勃曰然臣固知王不若也下者孰與齊桓公王曰吾不若也貂勃曰然臣固知王不若也然則周文王得呂",
+     "score": 1.87,
+     "length": 56,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0279-p86",
+     "kind": "name-overlap",
+     "names": [
+      "田單",
+      "貂勃"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-06",
+   "yearBc": 279,
+   "yearRange": [
+    279,
+    279
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0279-p87",
+     "kind": "substring",
+     "matched": "言莫不揮泣奮臂而欲戰此所以破燕也當今將軍東有夜邑之奉西有",
+     "score": 0.93,
+     "length": 28,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0279-p87",
+     "kind": "name-overlap",
+     "names": [
+      "田單"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qi-6-09",
+   "yearBc": 222,
+   "yearRange": [
+    222,
+    222
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0222-p26",
+     "kind": "substring",
+     "matched": "臨晉之關可以入矣鄢郢大夫不欲爲秦而在城南下者百數王收而與之百萬之師使收楚故地",
+     "score": 1.27,
+     "length": 38,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-1-05",
+   "yearBc": 233,
+   "yearRange": [
+    233,
+    233
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0233-p107",
+     "kind": "substring",
+     "matched": "說一舉而天下之從不破趙不舉韓不亡荊魏不臣齊燕不親",
+     "score": 0.8,
+     "length": 24,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-1-07",
+   "yearBc": 316,
+   "yearRange": [
+    316,
+    316
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0316-p16",
+     "kind": "substring",
+     "matched": "欲富國者務廣其地欲強兵者務富其民欲王者務博其德三資者備而王隨之矣今王",
+     "score": 1.13,
+     "length": 34,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0316-p16",
+     "kind": "name-overlap",
+     "names": [
+      "司馬錯",
+      "張儀",
+      "秦惠王"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-2-01",
+   "yearBc": 313,
+   "yearRange": [
+    313,
+    313
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0313-p31",
+     "kind": "substring",
+     "matched": "商於之地不可得而",
+     "score": 0.27,
+     "length": 8,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0313-p31",
+     "kind": "name-overlap",
+     "names": [
+      "張儀",
+      "陳軫"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-2-06",
+   "yearBc": 308,
+   "yearRange": [
+    308,
+    308
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0308-p57",
+     "kind": "substring",
+     "matched": "功文侯示之謗書一篋樂羊再拜稽首曰此非臣之功",
+     "score": 0.7,
+     "length": 21,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0308-p57",
+     "kind": "name-overlap",
+     "names": [
+      "公仲",
+      "向壽",
+      "樂羊"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-3-09",
+   "yearBc": 270,
+   "yearRange": [
+    270,
+    270
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0270-p14",
+     "kind": "substring",
+     "matched": "王而所願陳者皆匡君之事處人骨肉之間願",
+     "score": 0.6,
+     "length": 18,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0270-p14",
+     "kind": "name-overlap",
+     "names": [
+      "穰侯"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-3-14",
+   "yearBc": 259,
+   "yearRange": [
+    259,
+    259
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0259-p46",
+     "kind": "substring",
+     "matched": "武安君爲三公君能爲之下乎雖欲無爲之下固不得",
+     "score": 0.7,
+     "length": 21,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0259-p46",
+     "kind": "name-overlap",
+     "names": [
+      "應侯"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-3-17",
+   "yearBc": 255,
+   "yearRange": [
+    255,
+    255
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0255-p5",
+     "kind": "substring",
+     "matched": "商君吳起大夫種其爲人臣盡忠致功則可願矣閎夭",
+     "score": 0.7,
+     "length": 21,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0255-p5",
+     "kind": "name-overlap",
+     "names": [
+      "吳起",
+      "商君",
+      "孝公"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-4-09",
+   "yearBc": 273,
+   "yearRange": [
+    273,
+    273
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0273-p106",
+     "kind": "substring",
+     "matched": "後患三王不足四五伯不足六也王若負人徒之",
+     "score": 0.63,
+     "length": 19,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0273-p106",
+     "kind": "name-overlap",
+     "names": [
+      "智伯",
+      "黃歇"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-5-01",
+   "yearBc": 273,
+   "yearRange": [
+    273,
+    273
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0273-p106",
+     "kind": "substring",
+     "matched": "三王不足四五伯不足六",
+     "score": 0.33,
+     "length": 10,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0273-p106",
+     "kind": "name-overlap",
+     "names": [
+      "智伯"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "qin-5-05",
+   "yearBc": 257,
+   "yearRange": [
+    257,
+    257
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0257-p63",
+     "kind": "substring",
+     "matched": "之是子異人無國而有國",
+     "score": 0.33,
+     "length": 10,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0257-p63",
+     "kind": "name-overlap",
+     "names": [
+      "呂不韋"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "song-wei-08",
+   "yearBc": 286,
+   "yearRange": [
+    286,
+    286
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0286-p44",
+     "kind": "substring",
+     "matched": "欲霸之亟成故射天笞地斬社稷而焚滅之",
+     "score": 0.57,
+     "length": 17,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0286-p44",
+     "kind": "name-overlap",
+     "names": [
+      "宋康王",
+      "康王"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "song-wei-13",
+   "yearBc": 283,
+   "yearRange": [
+    283,
+    283
+   ],
+   "confidence": "medium",
+   "method": "name-window",
+   "evidence": [
+    {
+     "eventId": "tj-y0283-p65",
+     "kind": "name-window",
+     "names": [
+      "嗣君",
+      "衞嗣君"
+     ],
+     "score": 0.55
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "wei-1-09",
+   "yearBc": 361,
+   "yearRange": [
+    361,
+    361
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0361-p20",
+     "kind": "substring",
+     "matched": "不可諱將柰社稷何公叔",
+     "score": 0.33,
+     "length": 10,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0361-p20",
+     "kind": "name-overlap",
+     "names": [
+      "公孫鞅",
+      "孝公"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "wei-1-10",
+   "yearBc": 333,
+   "yearRange": [
+    333,
+    333
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0333-p108",
+     "kind": "substring",
+     "matched": "萬奮擊二十萬廝徒十萬車六百乘騎五千匹",
+     "score": 0.6,
+     "length": 18,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "wei-1-11",
+   "yearBc": 317,
+   "yearRange": [
+    317,
+    317
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0317-p13",
+     "kind": "substring",
+     "matched": "成亦明矣大王不事秦秦下兵攻河外",
+     "score": 0.5,
+     "length": 15,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0317-p13",
+     "kind": "name-overlap",
+     "names": [
+      "張儀",
+      "蘇秦"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "wei-4-24",
+   "yearBc": 247,
+   "yearRange": [
+    247,
+    247
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0247-p44",
+     "kind": "substring",
+     "matched": "曰安陵之地亦猶魏也今吾攻管而不下則秦兵及我社稷必危矣願君",
+     "score": 0.93,
+     "length": 28,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0247-p44",
+     "kind": "name-overlap",
+     "names": [
+      "信陵君",
+      "無忌",
+      "縮高"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "wei-4-27",
+   "yearBc": 225,
+   "yearRange": [
+    225,
+    225
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0225-p8",
+     "kind": "substring",
+     "matched": "王使人謂安陵君曰寡人欲以五百里",
+     "score": 0.5,
+     "length": 15,
+     "df": 1
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-1-01",
+   "yearBc": 333,
+   "yearRange": [
+    333,
+    333
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0333-p103",
+     "kind": "substring",
+     "matched": "百里之內夫不憂百里之患而重千里之外計無過",
+     "score": 0.67,
+     "length": 20,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0333-p103",
+     "kind": "name-overlap",
+     "names": [
+      "蘇秦"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-1-06",
+   "yearBc": 311,
+   "yearRange": [
+    311,
+    311
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0311-p43",
+     "kind": "substring",
+     "matched": "河間以事秦大王不事秦秦下甲雲中九原驅趙而攻燕則易水長城非",
+     "score": 0.93,
+     "length": 28,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0311-p43",
+     "kind": "name-overlap",
+     "names": [
+      "張儀"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-1-09",
+   "yearBc": 316,
+   "yearRange": [
+    316,
+    316
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0316-p17",
+     "kind": "substring",
+     "matched": "而效之子之子之南面行王事而噲老不聽政顧爲臣國事皆決",
+     "score": 0.83,
+     "length": 25,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0316-p17",
+     "kind": "name-overlap",
+     "names": [
+      "燕王噲",
+      "王噲",
+      "蘇代"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-1-10",
+   "yearBc": 316,
+   "yearRange": [
+    316,
+    316
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0316-p17",
+     "kind": "substring",
+     "matched": "燕相子之與蘇代婚",
+     "score": 0.27,
+     "length": 8,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0316-p17",
+     "kind": "name-overlap",
+     "names": [
+      "燕王噲",
+      "王噲",
+      "蘇代"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-1-11",
+   "yearBc": 312,
+   "yearRange": [
+    312,
+    312
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0312-p35",
+     "kind": "substring",
+     "matched": "亂而襲破燕孤極知燕小力少不足以報然",
+     "score": 0.57,
+     "length": 17,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0312-p35",
+     "kind": "name-overlap",
+     "names": [
+      "劇辛",
+      "樂毅",
+      "郭隗"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-2-09",
+   "yearBc": 279,
+   "yearRange": [
+    279,
+    279
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0279-p84",
+     "kind": "substring",
+     "matched": "歸趙將軍自爲計則可矣而亦何以報先王之所以遇將軍之意乎",
+     "score": 0.87,
+     "length": 26,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0279-p84",
+     "kind": "name-overlap",
+     "names": [
+      "樂毅"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-3-03",
+   "yearBc": 251,
+   "yearRange": [
+    251,
+    251
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0251-p23",
+     "kind": "substring",
+     "matched": "長平其孤未壯可伐也王",
+     "score": 0.33,
+     "length": 10,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0251-p23",
+     "kind": "name-overlap",
+     "names": [
+      "廉頗",
+      "栗腹",
+      "樂乘"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "yan-3-05",
+   "yearBc": 228,
+   "yearRange": [
+    228,
+    228
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0228-p131",
+     "kind": "substring",
+     "matched": "私見樊於期曰秦之遇將軍可謂深矣父母宗族皆爲戮沒今聞購將軍",
+     "score": 0.93,
+     "length": 28,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0228-p131",
+     "kind": "name-overlap",
+     "names": [
+      "樊於期",
+      "王翦",
+      "荊軻"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-1-11",
+   "yearBc": 262,
+   "yearRange": [
+    262,
+    262
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0262-p40",
+     "kind": "substring",
+     "matched": "其勞而趙受其利雖強大不能得之",
+     "score": 0.47,
+     "length": 14,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0262-p40",
+     "kind": "name-overlap",
+     "names": [
+      "馮亭"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-2-01",
+   "yearBc": 333,
+   "yearRange": [
+    333,
+    333
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0333-p104",
+     "kind": "substring",
+     "matched": "竊爲大王計莫如一韓魏齊楚燕趙",
+     "score": 0.47,
+     "length": 14,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0333-p104",
+     "kind": "name-overlap",
+     "names": [
+      "蘇秦"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-2-03",
+   "yearBc": 311,
+   "yearRange": [
+    311,
+    311
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0311-p42",
+     "kind": "substring",
+     "matched": "愁居懾處不敢動搖唯大王有意督過之也今",
+     "score": 0.6,
+     "length": 18,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0311-p42",
+     "kind": "name-overlap",
+     "names": [
+      "張儀"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-2-04",
+   "yearBc": 307,
+   "yearRange": [
+    307,
+    307
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0307-p61",
+     "kind": "substring",
+     "matched": "世以笑我胡地中山吾必有之",
+     "score": 0.4,
+     "length": 12,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0307-p61",
+     "kind": "name-overlap",
+     "names": [
+      "武靈王"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-3-10",
+   "yearBc": 259,
+   "yearRange": [
+    259,
+    259
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0259-p47",
+     "kind": "substring",
+     "matched": "不遺餘力矣必以倦而歸也虞卿曰秦以其力攻其所不能取倦而歸王又以其力之所不能",
+     "score": 1.2,
+     "length": 36,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0259-p47",
+     "kind": "name-overlap",
+     "names": [
+      "樓緩",
+      "虞卿"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-3-12",
+   "yearBc": 260,
+   "yearRange": [
+    259,
+    260
+   ],
+   "confidence": "medium",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0260-p42",
+     "kind": "substring",
+     "matched": "天下之賀戰勝者皆在秦矣",
+     "score": 0.37,
+     "length": 11,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0259-p47",
+     "kind": "substring-range",
+     "matched": "王曰秦不遺餘力矣必",
+     "score": 0.3,
+     "length": 9,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0260-p42",
+     "kind": "name-overlap",
+     "names": [
+      "應侯",
+      "虞卿",
+      "鄭朱"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-3-13",
+   "yearBc": 258,
+   "yearRange": [
+    258,
+    258
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0258-p53",
+     "kind": "substring",
+     "matched": "賢奪其所憎而與其所愛彼又將使其子女讒妾爲諸侯妃姬處梁之宮梁王安得晏然而已乎而將軍又何以得故寵乎",
+     "score": 1.57,
+     "length": 47,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0258-p53",
+     "kind": "name-overlap",
+     "names": [
+      "平原君",
+      "魯仲連"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  },
+  {
+   "chapterId": "zhao-4-18",
+   "yearBc": 265,
+   "yearRange": [
+    265,
+    265
+   ],
+   "confidence": "high",
+   "method": "event-text-match",
+   "evidence": [
+    {
+     "eventId": "tj-y0265-p29",
+     "kind": "substring",
+     "matched": "不善哉位尊而無功奉厚而無勞而挾重器多也今媼尊長安君之位而封之以膏腴之地多",
+     "score": 1.2,
+     "length": 36,
+     "df": 1
+    },
+    {
+     "eventId": "tj-y0265-p29",
+     "kind": "name-overlap",
+     "names": [
+      "左師",
+      "左師公"
+     ],
+     "score": 0.5
+    }
+   ],
+   "reason": null
+  }
+ ],
+ "unresolved": [
+  {
+   "chapterId": "chu-1-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-1-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-2-09",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "chu-3-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-3-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-10",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "chu-4-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "chu-4-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-18",
+   "reason": "manual-review-reject",
+   "note": "蘇厲爲周最謂蘇秦 puts 蘇秦 alive at 前310, but 通鑑 records his death at 前316"
+  },
+  {
+   "chapterId": "dongzhou-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-22",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-23",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-24",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-25",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-26",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-27",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "dongzhou-28",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-11",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "han-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-17",
+   "reason": "manual-review-reject",
+   "note": "秦韓戰于濁澤: 濁澤之戰 is 前307; the L8 span 賂之以一名都與之 belongs to 張儀誑楚, not this chapter"
+  },
+  {
+   "chapterId": "han-1-18",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-22",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-23",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-1-25",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-18",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-2-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-18",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-22",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "han-3-23",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-05",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qi-1-06",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qi-1-09",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qi-1-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-1-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-2-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-2-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-2-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-2-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-2-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-2-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-01",
+   "reason": "manual-review-reject",
+   "note": "楚王死 narrates 懷王's death (前296); the 前299 event is only his detention"
+  },
+  {
+   "chapterId": "qi-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-05",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=6"
+  },
+  {
+   "chapterId": "qi-3-06",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qi-3-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-08",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qi-3-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-3-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-4-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-5-01",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qi-6-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qi-6-08",
+   "reason": "manual-review-reject",
+   "note": "齊閔王之遇殺: 閔王 dies 前284; the matched 法章 passage is the 前283 aftermath, one year late"
+  },
+  {
+   "chapterId": "qi-6-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-02",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qin-1-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-1-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-2-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-10",
+   "reason": "below-threshold",
+   "note": "bestL=7 secondL=0"
+  },
+  {
+   "chapterId": "qin-3-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-3-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-01",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qin-4-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-04",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "qin-4-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-4-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-5-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-5-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-5-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-5-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-5-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "qin-5-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "song-wei-14",
+   "reason": "manual-review-reject",
+   "note": "胥靡 story belongs to 嗣君's early reign; 前283 is only the year 通鑑 collects his anecdotes"
+  },
+  {
+   "chapterId": "song-wei-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-01",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=22 secondL=0"
+  },
+  {
+   "chapterId": "wei-1-02",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=9 secondL=0"
+  },
+  {
+   "chapterId": "wei-1-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-05",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=14 secondL=0"
+  },
+  {
+   "chapterId": "wei-1-06",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=17 secondL=0"
+  },
+  {
+   "chapterId": "wei-1-07",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "wei-1-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-18",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "wei-1-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-22",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-23",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-24",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-25",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-26",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-27",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-1-28",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-12",
+   "reason": "below-threshold",
+   "note": "bestL=7 secondL=0"
+  },
+  {
+   "chapterId": "wei-2-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-2-18",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-03",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "wei-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-05",
+   "reason": "below-threshold",
+   "note": "bestL=7 secondL=7"
+  },
+  {
+   "chapterId": "wei-3-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-3-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-01",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "wei-4-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-17",
+   "reason": "below-threshold",
+   "note": "bestL=7 secondL=0"
+  },
+  {
+   "chapterId": "wei-4-18",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-22",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-23",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-25",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "wei-4-26",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "xizhou-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-1-13",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=8 secondL=0"
+  },
+  {
+   "chapterId": "yan-1-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-2-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-3-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "yan-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-01",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=19 secondL=0"
+  },
+  {
+   "chapterId": "zhao-1-02",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=21 secondL=6"
+  },
+  {
+   "chapterId": "zhao-1-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-04",
+   "reason": "tongjian-bucket-year",
+   "note": "bestL=8 secondL=0"
+  },
+  {
+   "chapterId": "zhao-1-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-1-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-2-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-2-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-2-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-2-07",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "zhao-3-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-03",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=0"
+  },
+  {
+   "chapterId": "zhao-3-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-18",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-20",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-21",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-22",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-3-23",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-06",
+   "reason": "below-threshold",
+   "note": "bestL=6 secondL=6"
+  },
+  {
+   "chapterId": "zhao-4-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-10",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-11",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-12",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-13",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-14",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-15",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-16",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-17",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhao-4-19",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-01",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-02",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-03",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-04",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-05",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-06",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-07",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-08",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-09",
+   "reason": "no-tongjian-match"
+  },
+  {
+   "chapterId": "zhongshan-10",
+   "reason": "manual-review-reject",
+   "note": "昭王既息民繕兵: only evidence is the formula 楚地方五千里持戟百萬 (df=1 by luck); no real match"
+  }
+ ]
+}

@@ -1,0 +1,9300 @@
+{
+ "schemaVersion": 1,
+ "bookId": "zhanguoce",
+ "generatedBy": "tools/build_strategy.py",
+ "generatedFrom": {
+  "chapters": 497,
+  "paragraphs": 6663
+ },
+ "principle": "只描述原文可見的修辭手段與可指認的說話人／受話人；指認不出寫 null 並記原因，不推斷意圖，不評價高下。",
+ "turnRule": "「謂」前為說話人、「謂」後至「曰」為受話人，皆以 entities/people.json 最長別名回填；回填不上寫 null 並記入 unresolvedTurns。",
+ "deviceKinds": [
+  {
+   "kind": "類比譬喻",
+   "rationale": "用另一件事物比擬當前事理，以彼證此。"
+  },
+  {
+   "kind": "史例",
+   "rationale": "援引前代人事作為當下判斷的依據。"
+  },
+  {
+   "kind": "利害威嚇",
+   "rationale": "指出不行此計必致的危亡後果，以利害相迫。"
+  },
+  {
+   "kind": "利誘好處",
+   "rationale": "指出行此計可得的利益，以利相誘。"
+  },
+  {
+   "kind": "反問詰難",
+   "rationale": "以反詰句式代替斷言，逼對方自悟其非。"
+  },
+  {
+   "kind": "引書引諺",
+   "rationale": "引用《詩》《書》或諺語，借經典與眾論作權威。"
+  }
+ ],
+ "chapters": [
+  {
+   "chapterId": "dongzhou-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-02-p0008",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "景翠",
+     "addresseeId": "person-jing-cui",
+     "marker": "謂",
+     "offset": 5,
+     "text": "謂景翠曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-04-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "東周君",
+     "addresseeId": "person-dongzhou-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂東周君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-05-p0002",
+     "speaker": "蘇子",
+     "speakerId": "person-su-qin",
+     "addressee": "東周君",
+     "addresseeId": "person-dongzhou-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇子謂東周君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-09-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "石禮",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "周最謂石禮曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-12",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "dongzhou-12-p0005",
+     "offset": 10,
+     "matched": "詩曰",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "dongzhou-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-13-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "金投",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 4,
+     "text": "周最謂金投曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-14-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "金投",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "周最謂金投曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-18",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-18-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "蘇秦",
+     "addresseeId": "person-su-qin",
+     "marker": "謂",
+     "offset": 5,
+     "text": "周最謂蘇秦曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-19",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-19-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "周最",
+     "addresseeId": "person-zhou-zui",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂周最曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-20",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-20-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "魏王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "周最謂魏王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-21",
+   "turns": [
+    {
+     "index": 0,
+     "p": "dongzhou-21-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "周最",
+     "addresseeId": "person-zhou-zui",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂周最曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-22",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-23",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "dongzhou-23-p0002",
+     "offset": 0,
+     "matched": "譬",
+     "len": 1
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "dongzhou-24",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-25",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-26",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-27",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "dongzhou-28",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-02-p0002",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "李兌",
+     "addresseeId": "person-li-dui",
+     "marker": "謂",
+     "offset": 3,
+     "text": "周最謂李兌曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-03",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "xizhou-03-p0006",
+     "offset": 2,
+     "matched": "豈能無愛國哉",
+     "len": 6
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "xizhou-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-04-p0006",
+     "speaker": "昭應",
+     "speakerId": "person-zhao-ying",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "昭應謂楚王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-05-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "周最",
+     "addresseeId": "person-zhou-zui",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂周最曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-06-p0001",
+     "speaker": "蘇厲",
+     "speakerId": "person-su-li",
+     "addressee": "周君",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇厲謂周君曰"
+    },
+    {
+     "index": 1,
+     "p": "xizhou-06-p0004",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "白起",
+     "addresseeId": "person-bai-qi",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂白起曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-08-p0002",
+     "speaker": "蘇秦",
+     "speakerId": "person-su-qin",
+     "addressee": "周君",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇秦謂周君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "xizhou-08-p0004",
+     "offset": 9,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "xizhou-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-09-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "周君",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 6,
+     "text": "周最謂周君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-12",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "xizhou-12-p0002",
+     "offset": 9,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "xizhou-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-13-p0001",
+     "speaker": "周最",
+     "speakerId": "person-zhou-zui",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 7,
+     "text": "周最謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "xizhou-14-p0001",
+     "speaker": "宮他",
+     "speakerId": "person-gong-ta",
+     "addressee": "周君",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "宮他謂周君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "xizhou-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-02",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qin-1-02-p0007",
+     "offset": 16,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "qin-1-02-p0009",
+     "offset": 0,
+     "matched": "古者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-1-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-03-p0001",
+     "speaker": "秦惠王",
+     "speakerId": "person-qin-huiwang",
+     "addressee": "寒泉子",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "秦惠王謂寒泉子曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-04-p0001",
+     "speaker": "泠向",
+     "speakerId": "person-ling-xiang",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "泠向謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qin-1-05-p0018",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "qin-1-05-p0038",
+     "offset": 7,
+     "matched": "必亡",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "qin-1-05-p0050",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "qin-1-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-06-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "甘茂",
+     "addresseeId": "person-gan-mao",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂甘茂曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-07",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "qin-1-07-p0006",
+     "offset": 24,
+     "matched": "王業",
+     "len": 2
+    },
+    {
+     "kind": "類比譬喻",
+     "p": "qin-1-07-p0012",
+     "offset": 5,
+     "matched": "譬如",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-1-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-08-p0003",
+     "speaker": "張子",
+     "speakerId": "person-zhang-yi",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "張子謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-09-p0004",
+     "speaker": "甘茂",
+     "speakerId": "person-gan-mao",
+     "addressee": "王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "甘茂謂王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-10",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-10-p0001",
+     "speaker": "張儀",
+     "speakerId": "person-zhang-yi",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 6,
+     "text": "張儀謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-1-12",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-12-p0003",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "陳軫",
+     "addresseeId": "person-chen-zhen",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂陳軫曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-1-12-p0009",
+     "offset": 8,
+     "matched": "何以軫爲",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-1-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-1-13-p0001",
+     "speaker": "張儀",
+     "speakerId": "person-zhang-yi",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 9,
+     "text": "張儀謂秦王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qin-1-13-p0021",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qin-1-13-p0023",
+     "offset": 7,
+     "matched": "何以軫爲",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-2-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-01-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張儀",
+     "addresseeId": "person-zhang-yi",
+     "marker": "謂",
+     "offset": 20,
+     "text": "謂張儀曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-2-01-p0025",
+     "offset": 10,
+     "matched": "安得",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-2-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-02-p0002",
+     "speaker": "陳軫",
+     "speakerId": "person-chen-zhen",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "陳軫謂楚王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-2-02-p0005",
+     "offset": 6,
+     "matched": "獨不聞吳人之游楚者乎",
+     "len": 10
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-2-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-03-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "公孫衍",
+     "addresseeId": "person-gongsun-yan",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂公孫衍曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-04-p0001",
+     "speaker": "公孫衍",
+     "speakerId": "person-gongsun-yan",
+     "addressee": "義渠君",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 9,
+     "text": "公孫衍謂義渠君曰"
+    },
+    {
+     "index": 1,
+     "p": "qin-2-04-p0006",
+     "speaker": "陳軫",
+     "speakerId": "person-chen-zhen",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "陳軫謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-06-p0001",
+     "speaker": "秦武王",
+     "speakerId": "person-qin-wuwang",
+     "addressee": "甘茂",
+     "addresseeId": "person-gan-mao",
+     "marker": "謂",
+     "offset": 3,
+     "text": "秦武王謂甘茂曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qin-2-06-p0013",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-2-07",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "qin-2-07-p0001",
+     "offset": 26,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-2-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-09-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "甘茂",
+     "addresseeId": "person-gan-mao",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂甘茂曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-11-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "甘茂",
+     "addresseeId": "person-gan-mao",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂甘茂曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-2-14-p0003",
+     "speaker": "甘茂",
+     "speakerId": "person-gan-mao",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "甘茂謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-2-15",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "qin-2-15-p0016",
+     "offset": 13,
+     "matched": "譬猶",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qin-2-15-p0017",
+     "offset": 2,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-2-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-01-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "魏冉",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 4,
+     "text": "謂魏冉曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-02-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "穰侯",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 4,
+     "text": "謂穰侯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-03-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "魏冉",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂魏冉曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-04-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "魏冉",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂魏冉曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-05-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "穰侯",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂穰侯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-06-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "魏冉",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂魏冉曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-07",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-07-p0002",
+     "speaker": "魏冉",
+     "speakerId": "person-wei-ran",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 6,
+     "text": "魏冉謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-08",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-3-08-p0009",
+     "offset": 9,
+     "matched": "獨不足以厚國家乎",
+     "len": 8
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-3-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-09-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "范雎",
+     "addresseeId": "person-fan-ju",
+     "marker": "謂",
+     "offset": 9,
+     "text": "謂范雎曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "qin-3-09-p0038",
+     "offset": 16,
+     "matched": "譬若",
+     "len": 2
+    },
+    {
+     "kind": "利誘好處",
+     "p": "qin-3-09-p0038",
+     "offset": 27,
+     "matched": "霸王之業",
+     "len": 4
+    },
+    {
+     "kind": "史例",
+     "p": "qin-3-09-p0046",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qin-3-09-p0051",
+     "offset": 7,
+     "matched": "不亦繆乎",
+     "len": 4
+    },
+    {
+     "kind": "史例",
+     "p": "qin-3-09-p0052",
+     "offset": 1,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "qin-3-09-p0068",
+     "offset": 4,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 6
+   }
+  },
+  {
+   "chapterId": "qin-3-10",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-10-p0001",
+     "speaker": "應侯",
+     "speakerId": "person-fan-ju",
+     "addressee": "昭王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "應侯謂昭王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-11-p0002",
+     "speaker": "范雎",
+     "speakerId": "person-fan-ju",
+     "addressee": "秦昭王",
+     "addresseeId": "person-qin-zhaowang",
+     "marker": "謂",
+     "offset": 2,
+     "text": "范雎謂秦昭王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-14-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "應侯",
+     "addresseeId": "person-fan-ju",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂應侯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-15",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-3-15-p0002",
+     "speaker": "秦昭王",
+     "speakerId": "person-qin-zhaowang",
+     "addressee": "應侯",
+     "addresseeId": "person-fan-ju",
+     "marker": "謂",
+     "offset": 3,
+     "text": "秦昭王謂應侯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-3-17",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-3-17-p0005",
+     "offset": 50,
+     "matched": "豈有此乎",
+     "len": 4
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qin-3-17-p0027",
+     "offset": 13,
+     "matched": "豈不亦忠乎",
+     "len": 5
+    },
+    {
+     "kind": "史例",
+     "p": "qin-3-17-p0034",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qin-3-17-p0045",
+     "offset": 16,
+     "matched": "獨不觀博者乎",
+     "len": 6
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 4
+   }
+  },
+  {
+   "chapterId": "qin-4-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-4-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-4-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-4-03-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "樓緩",
+     "addresseeId": "person-lou-huan",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂樓緩曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "qin-4-03-p0003",
+     "offset": 17,
+     "matched": "大利",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "qin-4-03-p0011",
+     "offset": 12,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-4-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-4-04-p0001",
+     "speaker": "秦昭王",
+     "speakerId": "person-qin-zhaowang",
+     "addressee": "左右",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "秦昭王謂左右曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qin-4-04-p0008",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-4-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "qin-4-05-p0009",
+     "offset": 21,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-4-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-4-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-4-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-4-09",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "qin-4-09-p0016",
+     "offset": 0,
+     "matched": "詩云",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "qin-4-09-p0017",
+     "offset": 0,
+     "matched": "易曰",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "qin-4-09-p0023",
+     "offset": 0,
+     "matched": "詩云",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "qin-4-09-p0024",
+     "offset": 17,
+     "matched": "詩云",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qin-4-09-p0030",
+     "offset": 6,
+     "matched": "不亦失乎",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 5
+   }
+  },
+  {
+   "chapterId": "qin-4-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qin-4-10-p0003",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-5-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "qin-5-01-p0006",
+     "offset": 0,
+     "matched": "詩云",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "qin-5-01-p0013",
+     "offset": 0,
+     "matched": "詩云",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-5-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-5-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-5-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-5-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qin-5-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qin-5-06-p0019",
+     "speaker": "甘羅",
+     "speakerId": "person-gan-luo",
+     "addressee": "文信侯",
+     "addresseeId": "person-lv-buwei",
+     "marker": "謂",
+     "offset": 20,
+     "text": "甘羅謂文信侯曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-5-06-p0008",
+     "offset": 17,
+     "matched": "安能",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "qin-5-06-p0022",
+     "offset": 23,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qin-5-07",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "qin-5-07-p0035",
+     "offset": 14,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qin-5-08",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qin-5-08-p0025",
+     "offset": 14,
+     "matched": "豈得其用哉",
+     "len": 5
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-1-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-1-04-p0001",
+     "speaker": "靖郭君",
+     "speakerId": "person-tian-ying",
+     "addressee": "齊王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "靖郭君謂齊王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-1-05-p0014",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "靖郭君",
+     "addresseeId": "person-tian-ying",
+     "marker": "謂",
+     "offset": 10,
+     "text": "謂靖郭君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qi-1-05-p0019",
+     "offset": 19,
+     "matched": "獨謂先王何乎",
+     "len": 6
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-1-05-p0020",
+     "offset": 9,
+     "matched": "豈可以先王之廟與楚乎",
+     "len": 10
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qi-1-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-1-08-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "鄒忌",
+     "addresseeId": "person-zou-ji",
+     "marker": "謂",
+     "offset": 3,
+     "text": "謂鄒忌曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-1-09-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "田忌",
+     "addresseeId": "person-tian-ji",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂田忌曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-1-11-p0003",
+     "speaker": "鄒忌",
+     "speakerId": "person-zou-ji",
+     "addressee": "宣王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "鄒忌謂宣王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-1-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-2-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-2-02",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "qi-2-02-p0008",
+     "offset": 52,
+     "matched": "王業",
+     "len": 2
+    },
+    {
+     "kind": "利誘好處",
+     "p": "qi-2-02-p0019",
+     "offset": 50,
+     "matched": "王業",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qi-2-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-2-04",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "qi-2-04-p0007",
+     "offset": 12,
+     "matched": "譬",
+     "len": 1
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-2-04-p0009",
+     "offset": 21,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qi-2-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-2-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-2-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-2-08",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qi-2-08-p0005",
+     "offset": 26,
+     "matched": "安得",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-3-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-3-01-p0002",
+     "speaker": "蘇秦",
+     "speakerId": "person-su-qin",
+     "addressee": "薛公",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇秦謂薛公曰"
+    },
+    {
+     "index": 1,
+     "p": "qi-3-01-p0007",
+     "speaker": "蘇秦",
+     "speakerId": "person-su-qin",
+     "addressee": "薛公",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇秦謂薛公曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "qi-3-01-p0034",
+     "offset": 6,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 2,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-3-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-3-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-3-03-p0005",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "孟嘗君",
+     "addresseeId": "person-mengchang-jun",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂孟嘗君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "qi-3-03-p0009",
+     "offset": 48,
+     "matched": "譬若",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-3-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-3-04-p0004",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "淳于髠",
+     "addresseeId": "person-chunyu-kun",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂淳于髠曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "qi-3-04-p0011",
+     "offset": 8,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-3-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-3-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-3-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-3-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-3-08-p0002",
+     "speaker": "魯連",
+     "speakerId": "person-lu-zhonglian",
+     "addressee": "孟嘗君",
+     "addresseeId": "person-mengchang-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "魯連謂孟嘗君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qi-3-08-p0006",
+     "offset": 29,
+     "matched": "豈非世之立教首也哉",
+     "len": 9
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-3-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-3-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qi-3-10-p0003",
+     "offset": 11,
+     "matched": "不亦眾乎",
+     "len": 4
+    },
+    {
+     "kind": "類比譬喻",
+     "p": "qi-3-10-p0008",
+     "offset": 6,
+     "matched": "譬若",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qi-3-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-3-11-p0002",
+     "speaker": "淳于髠",
+     "speakerId": "person-chunyu-kun",
+     "addressee": "齊王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "淳于髠謂齊王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-3-12",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "qi-3-12-p0007",
+     "offset": 34,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "qi-4-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-4-01-p0034",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "孟嘗君",
+     "addresseeId": "person-mengchang-jun",
+     "marker": "謂",
+     "offset": 6,
+     "text": "謂孟嘗君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-4-02-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "孟嘗君",
+     "addresseeId": "person-mengchang-jun",
+     "marker": "謂",
+     "offset": 3,
+     "text": "謂孟嘗君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-03",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qi-4-03-p0005",
+     "offset": 22,
+     "matched": "豈有騏麟、騄耳哉",
+     "len": 8
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-4-03-p0006",
+     "offset": 14,
+     "matched": "豈有毛嬙、西施哉",
+     "len": 8
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "qi-4-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-4-04-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "孟嘗君",
+     "addresseeId": "person-mengchang-jun",
+     "marker": "謂",
+     "offset": 8,
+     "text": "謂孟嘗君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qi-4-05-p0010",
+     "offset": 6,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "qi-4-05-p0025",
+     "offset": 40,
+     "matched": "禍必",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-4-05-p0029",
+     "offset": 27,
+     "matched": "何不吉之有",
+     "len": 5
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "qi-4-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-4-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "qi-4-11-p0001",
+     "speaker": "蘇秦",
+     "speakerId": "person-su-qin",
+     "addressee": "齊王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇秦謂齊王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-5-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "qi-5-01-p0009",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "類比譬喻",
+     "p": "qi-5-01-p0014",
+     "offset": 7,
+     "matched": "譬",
+     "len": 1
+    },
+    {
+     "kind": "史例",
+     "p": "qi-5-01-p0024",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "qi-5-01-p0042",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "qi-5-01-p0052",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "qi-5-01-p0081",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "利誘好處",
+     "p": "qi-5-01-p0088",
+     "offset": 17,
+     "matched": "王業",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 7
+   }
+  },
+  {
+   "chapterId": "qi-6-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "qi-6-05-p0006",
+     "offset": 14,
+     "matched": "豈特攫其腓而噬之耳哉",
+     "len": 10
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-6-05-p0014",
+     "offset": 24,
+     "matched": "豈不以據勢也哉",
+     "len": 7
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-6-05-p0022",
+     "offset": 10,
+     "matched": "惡得",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "qi-6-05-p0029",
+     "offset": 9,
+     "matched": "惡得",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "qi-6-05-p0036",
+     "offset": 18,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 5
+   }
+  },
+  {
+   "chapterId": "qi-6-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "qi-6-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "chu-1-01-p0006",
+     "offset": 6,
+     "matched": "必危",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "chu-1-01-p0007",
+     "offset": 16,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "chu-1-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-1-02-p0002",
+     "speaker": "昭陽",
+     "speakerId": "person-zhao-yang",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "昭陽謂楚王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-1-05-p0001",
+     "speaker": "昭奚恤",
+     "speakerId": "person-zhao-xixu",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 8,
+     "text": "昭奚恤謂楚王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-12",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-1-12-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "昭奚恤",
+     "addresseeId": "person-zhao-xixu",
+     "marker": "謂",
+     "offset": 4,
+     "text": "謂昭奚恤曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-15",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-1-15-p0003",
+     "speaker": "陳軫",
+     "speakerId": "person-chen-zhen",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "陳軫謂楚王曰"
+    },
+    {
+     "index": 1,
+     "p": "chu-1-15-p0008",
+     "speaker": "陳軫",
+     "speakerId": "person-chen-zhen",
+     "addressee": "王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "陳軫謂王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-16",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "chu-1-16-p0016",
+     "offset": 7,
+     "matched": "大利",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-1-17",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "chu-1-17-p0014",
+     "offset": 2,
+     "matched": "霸王之業",
+     "len": 4
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "chu-1-17-p0024",
+     "offset": 30,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "chu-1-18",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "chu-1-18-p0008",
+     "offset": 15,
+     "matched": "豈得無危哉",
+     "len": 5
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-1-19",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-1-19-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "昭雎",
+     "addresseeId": "person-zhao-ju",
+     "marker": "謂",
+     "offset": 5,
+     "text": "謂昭雎曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-1-20",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "chu-1-20-p0009",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "chu-1-20-p0012",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "chu-1-20-p0034",
+     "offset": 19,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "chu-2-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-2-01-p0002",
+     "speaker": "甘茂",
+     "speakerId": "person-gan-mao",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "甘茂謂楚王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-2-02-p0002",
+     "speaker": "昭雎",
+     "speakerId": "person-zhao-ju",
+     "addressee": "景翠",
+     "addresseeId": "person-jing-cui",
+     "marker": "謂",
+     "offset": 2,
+     "text": "昭雎謂景翠曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-2-03-p0002",
+     "speaker": "蘇厲",
+     "speakerId": "person-su-li",
+     "addressee": "宛公昭鼠",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 10,
+     "text": "蘇厲謂宛公昭鼠曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-2-04-p0002",
+     "speaker": "昭雎",
+     "speakerId": "person-zhao-ju",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 5,
+     "text": "昭雎謂楚王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-2-06-p0001",
+     "speaker": "靳尚",
+     "speakerId": "person-jin-shang",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 15,
+     "text": "靳尚謂楚王曰"
+    },
+    {
+     "index": 1,
+     "p": "chu-2-06-p0003",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張旄",
+     "addresseeId": "person-zhang-mao",
+     "marker": "謂",
+     "offset": 10,
+     "text": "謂張旄曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-2-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-2-09-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "蘇子",
+     "addresseeId": "person-su-qin",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂蘇子曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "chu-2-09-p0002",
+     "offset": 10,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-3-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-3-01-p0001",
+     "speaker": "蘇子",
+     "speakerId": "person-su-qin",
+     "addressee": "楚王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇子謂楚王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-3-04-p0013",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張子",
+     "addresseeId": "person-zhang-yi",
+     "marker": "謂",
+     "offset": 12,
+     "text": "謂張子曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "chu-3-05-p0009",
+     "offset": 13,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-3-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-3-06-p0009",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張儀",
+     "addresseeId": "person-zhang-yi",
+     "marker": "謂",
+     "offset": 13,
+     "text": "謂張儀曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-07",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-3-07-p0004",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "昭陽",
+     "addresseeId": "person-zhao-yang",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂昭陽曰"
+    },
+    {
+     "index": 1,
+     "p": "chu-3-07-p0007",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "惠施",
+     "addresseeId": "person-hui-shi",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂惠施曰"
+    },
+    {
+     "index": 2,
+     "p": "chu-3-07-p0010",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "昭陽",
+     "addresseeId": "person-zhao-yang",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂昭陽曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 3,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-3-08-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "陳軫",
+     "addresseeId": "person-chen-zhen",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂陳軫曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-3-09-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "陳軫",
+     "addresseeId": "person-chen-zhen",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂陳軫曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-3-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-4-02-p0009",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "鄭袖",
+     "addresseeId": "person-zheng-xiu",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂鄭袖曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-4-03-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "昭魚",
+     "addresseeId": "person-zhao-yu",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂昭魚曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-4-04-p0001",
+     "speaker": "莊辛",
+     "speakerId": "person-zhuang-xin",
+     "addressee": "楚襄王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "莊辛謂楚襄王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "chu-4-04-p0001",
+     "offset": 42,
+     "matched": "必危",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "chu-4-04-p0005",
+     "offset": 12,
+     "matched": "必亡",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "chu-4-04-p0010",
+     "offset": 8,
+     "matched": "鄙語曰",
+     "len": 3
+    },
+    {
+     "kind": "反問詰難",
+     "p": "chu-4-04-p0012",
+     "offset": 17,
+     "matched": "豈特百里哉",
+     "len": 5
+    },
+    {
+     "kind": "反問詰難",
+     "p": "chu-4-04-p0013",
+     "offset": 1,
+     "matched": "獨不見夫蜻蛉乎",
+     "len": 7
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 5
+   }
+  },
+  {
+   "chapterId": "chu-4-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-06",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "chu-4-06-p0005",
+     "offset": 0,
+     "matched": "諺曰",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-4-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-09",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "chu-4-09-p0025",
+     "offset": 11,
+     "matched": "詩曰",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-4-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "chu-4-10-p0004",
+     "offset": 16,
+     "matched": "譬",
+     "len": 1
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-4-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "chu-4-12",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-4-12-p0025",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "春申君",
+     "addresseeId": "person-chunshen-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂春申君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "chu-4-12-p0014",
+     "offset": 17,
+     "matched": "安得",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "chu-4-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "chu-4-13-p0001",
+     "speaker": "虞卿",
+     "speakerId": "person-yu-qing",
+     "addressee": "春申君",
+     "addresseeId": "person-chunshen-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "虞卿謂春申君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-1-01-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "知伯",
+     "addresseeId": "person-zhi-bo",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂知伯曰"
+    },
+    {
+     "index": 1,
+     "p": "zhao-1-01-p0013",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "知伯",
+     "addresseeId": "person-zhi-bo",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂知伯曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-1-01-p0013",
+     "offset": 9,
+     "matched": "何以疵言告韓、魏之君爲",
+     "len": 11
+    }
+   ],
+   "stats": {
+    "turns": 2,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-1-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-1-02-p0029",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張孟談",
+     "addresseeId": "person-zhang-mengtan",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂張孟談曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "zhao-1-02-p0037",
+     "offset": 22,
+     "matched": "禍必",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-1-03",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-1-03-p0001",
+     "offset": 28,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "zhao-1-03-p0022",
+     "offset": 30,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhao-1-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-1-08-p0014",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "李兌",
+     "addresseeId": "person-li-dui",
+     "marker": "謂",
+     "offset": 8,
+     "text": "謂李兌曰"
+    },
+    {
+     "index": 1,
+     "p": "zhao-1-08-p0017",
+     "speaker": "蘇秦",
+     "speakerId": "person-su-qin",
+     "addressee": "舍人",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 9,
+     "text": "蘇秦謂舍人曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-09",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-1-09-p0005",
+     "offset": 8,
+     "matched": "豈得愛趙而憎齊哉",
+     "len": 8
+    },
+    {
+     "kind": "史例",
+     "p": "zhao-1-09-p0014",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "zhao-1-09-p0021",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "zhao-1-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-1-11-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "公子他",
+     "addresseeId": "person-gongzi-ta",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂公子他曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "zhao-1-11-p0033",
+     "offset": 23,
+     "matched": "大利",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-1-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-1-13-p0001",
+     "speaker": "泠向",
+     "speakerId": "person-ling-xiang",
+     "addressee": "強國",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 19,
+     "text": "泠向謂強國曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-14",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-1-14-p0003",
+     "offset": 3,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-1-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-1-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-2-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-2-01-p0039",
+     "offset": 19,
+     "matched": "豈可同日而言之哉",
+     "len": 8
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-2-02",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-2-02-p0016",
+     "offset": 0,
+     "matched": "豈獨田單、如耳爲大過哉",
+     "len": 11
+    },
+    {
+     "kind": "史例",
+     "p": "zhao-2-02-p0026",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhao-2-03",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-2-03-p0013",
+     "offset": 22,
+     "matched": "豈可得哉",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-2-04",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-2-04-p0052",
+     "offset": 1,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "zhao-2-04-p0094",
+     "offset": 0,
+     "matched": "諺曰",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhao-2-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "zhao-2-05-p0006",
+     "offset": 0,
+     "matched": "詩云",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-2-06",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "zhao-2-06-p0003",
+     "offset": 15,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-2-07",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-2-07-p0015",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-3-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-3-01-p0012",
+     "offset": 1,
+     "matched": "古者",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-01-p0017",
+     "offset": 15,
+     "matched": "豈有敢曰，我其以三萬救是者乎哉",
+     "len": 15
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhao-3-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-3-02-p0002",
+     "speaker": "宋突",
+     "speakerId": "person-song-tu",
+     "addressee": "仇郝",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "宋突謂仇郝曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-3-03-p0002",
+     "speaker": "樂毅",
+     "speakerId": "person-yue-yi",
+     "addressee": "趙王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "樂毅謂趙王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-04",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-04-p0005",
+     "offset": 14,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-3-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "zhao-3-05-p0019",
+     "offset": 11,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-3-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-3-06-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "李兌",
+     "addresseeId": "person-li-dui",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂李兌曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-3-08-p0001",
+     "speaker": "平原君",
+     "speakerId": "person-pingyuan-jun",
+     "addressee": "馮忌",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "平原君謂馮忌曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-09",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-3-09-p0001",
+     "speaker": "平原君",
+     "speakerId": "person-pingyuan-jun",
+     "addressee": "平陽君",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "平原君謂平陽君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-09-p0002",
+     "offset": 11,
+     "matched": "獨無以教之乎",
+     "len": 6
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-3-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-3-10-p0032",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "zhao-3-10-p0066",
+     "offset": 12,
+     "matched": "危矣",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-10-p0067",
+     "offset": 1,
+     "matched": "不亦大示天下弱乎",
+     "len": 8
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "zhao-3-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-3-13-p0004",
+     "speaker": "平原君",
+     "speakerId": "person-pingyuan-jun",
+     "addressee": "趙王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 18,
+     "text": "平原君謂趙王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-13-p0048",
+     "offset": 8,
+     "matched": "獨未見夫僕乎",
+     "len": 6
+    },
+    {
+     "kind": "史例",
+     "p": "zhao-3-13-p0057",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-13-p0076",
+     "offset": 22,
+     "matched": "安得",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "zhao-3-14",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-14-p0001",
+     "offset": 8,
+     "matched": "安能",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "zhao-3-14-p0002",
+     "offset": 1,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhao-3-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-18",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-19",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-20",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-3-20-p0010",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-3-21",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-22",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-3-23",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-4-01-p0012",
+     "offset": 5,
+     "matched": "安得",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-4-02",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "zhao-4-02-p0008",
+     "offset": 6,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-4-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-4-04-p0003",
+     "speaker": "蘇代",
+     "speakerId": "person-su-dai",
+     "addressee": "齊王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇代謂齊王曰"
+    },
+    {
+     "index": 1,
+     "p": "zhao-4-04-p0004",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "奉陽君",
+     "addresseeId": "person-li-dui",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂奉陽君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-4-04-p0018",
+     "offset": 6,
+     "matched": "何以天下爲",
+     "len": 5
+    }
+   ],
+   "stats": {
+    "turns": 2,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-4-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-4-06-p0001",
+     "speaker": "虞卿",
+     "speakerId": "person-yu-qing",
+     "addressee": "趙王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "虞卿謂趙王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "zhao-4-06-p0010",
+     "offset": 19,
+     "matched": "大利",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-4-07",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-4-07-p0003",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "平原君",
+     "addresseeId": "person-pingyuan-jun",
+     "marker": "謂",
+     "offset": 3,
+     "text": "謂平原君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-4-08-p0002",
+     "speaker": "宋突",
+     "speakerId": "person-song-tu",
+     "addressee": "仇郝",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 7,
+     "text": "宋突謂仇郝曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-10",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-4-10-p0003",
+     "speaker": "田駟",
+     "speakerId": "person-tian-si",
+     "addressee": "柱國韓向",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "田駟謂柱國韓向曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-12",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "zhao-4-12-p0007",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhao-4-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-17",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhao-4-17-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "文信侯",
+     "addresseeId": "person-lv-buwei",
+     "marker": "謂",
+     "offset": 4,
+     "text": "謂文信侯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhao-4-18",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhao-4-18-p0026",
+     "offset": 24,
+     "matched": "豈非計久長，有子孫相繼爲王也哉",
+     "len": 15
+    },
+    {
+     "kind": "反問詰難",
+     "p": "zhao-4-18-p0028",
+     "offset": 4,
+     "matched": "獨趙，諸侯有在者乎",
+     "len": 9
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhao-4-19",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "wei-1-01-p0008",
+     "offset": 0,
+     "matched": "周書曰",
+     "len": 3
+    },
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-01-p0010",
+     "offset": 11,
+     "matched": "獨以吾國爲知氏質乎",
+     "len": 9
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "wei-1-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-05-p0004",
+     "offset": 15,
+     "matched": "豈可不一會期哉",
+     "len": 7
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-1-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-07",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-07-p0001",
+     "offset": 21,
+     "matched": "豈不亦信固哉",
+     "len": 6
+    },
+    {
+     "kind": "利誘好處",
+     "p": "wei-1-07-p0003",
+     "offset": 6,
+     "matched": "霸王之業",
+     "len": 4
+    },
+    {
+     "kind": "史例",
+     "p": "wei-1-07-p0007",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "wei-1-08",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-08-p0008",
+     "offset": 8,
+     "matched": "何力之有",
+     "len": 4
+    },
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-08-p0011",
+     "offset": 6,
+     "matched": "豈非長者哉",
+     "len": 5
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "wei-1-09",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-09-p0003",
+     "offset": 12,
+     "matched": "豈不悲哉",
+     "len": 4
+    },
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-09-p0004",
+     "offset": 17,
+     "matched": "不亦悖乎",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "wei-1-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-10-p0009",
+     "offset": 0,
+     "matched": "豈其士卒眾哉",
+     "len": 6
+    },
+    {
+     "kind": "引書引諺",
+     "p": "wei-1-10-p0017",
+     "offset": 0,
+     "matched": "周書曰",
+     "len": 3
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "wei-1-11",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-11-p0026",
+     "offset": 10,
+     "matched": "惡得",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-1-12",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-1-12-p0004",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "田嬰",
+     "addresseeId": "person-tian-ying",
+     "marker": "謂",
+     "offset": 5,
+     "text": "謂田嬰曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "wei-1-12-p0006",
+     "offset": 7,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-1-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-15",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-1-15-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "陳軫",
+     "addresseeId": "person-chen-zhen",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂陳軫曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-18",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-1-18-p0004",
+     "speaker": "惠子",
+     "speakerId": "person-hui-shi",
+     "addressee": "王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "惠子謂王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-19",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-1-19-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張子",
+     "addresseeId": "person-zhang-yi",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂張子曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "wei-1-19-p0004",
+     "offset": 7,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-1-20",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-21",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "wei-1-21-p0002",
+     "offset": 17,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-1-22",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-23",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-24",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-1-24-p0001",
+     "speaker": "犀首",
+     "speakerId": "person-gongsun-yan",
+     "addressee": "梁王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 7,
+     "text": "犀首謂梁王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-25",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-1-25-p0001",
+     "speaker": "竇屢",
+     "speakerId": "person-dou-lv",
+     "addressee": "魏王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 42,
+     "text": "竇屢謂魏王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-26",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-27",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-1-28",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-1-28-p0002",
+     "offset": 11,
+     "matched": "獨不見夫服牛驂驥乎",
+     "len": 9
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-2-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-2-04-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "張儀",
+     "addresseeId": "person-zhang-yi",
+     "marker": "謂",
+     "offset": 14,
+     "text": "謂張儀曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-2-05-p0002",
+     "speaker": "犀首",
+     "speakerId": "person-gongsun-yan",
+     "addressee": "韓王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 5,
+     "text": "犀首謂韓王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "wei-2-05-p0003",
+     "offset": 13,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-2-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-13",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "wei-2-13-p0006",
+     "offset": 17,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-2-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-2-14-p0001",
+     "speaker": "昭魚",
+     "speakerId": "person-zhao-yu",
+     "addressee": "蘇代",
+     "addresseeId": "person-su-dai",
+     "marker": "謂",
+     "offset": 6,
+     "text": "昭魚謂蘇代曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-16",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-2-18",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "wei-2-18-p0003",
+     "offset": 11,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-3-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-3-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-3-02-p0001",
+     "speaker": "芒卯",
+     "speakerId": "person-mang-mao",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "芒卯謂秦王曰"
+    },
+    {
+     "index": 1,
+     "p": "wei-3-02-p0010",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "芒卯",
+     "addresseeId": "person-mang-mao",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂芒卯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-3-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-3-03-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "穰侯",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 4,
+     "text": "謂穰侯曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-3-03-p0007",
+     "offset": 2,
+     "matched": "何厭之有",
+     "len": 4
+    },
+    {
+     "kind": "引書引諺",
+     "p": "wei-3-03-p0014",
+     "offset": 0,
+     "matched": "周書曰",
+     "len": 3
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "wei-3-03-p0020",
+     "offset": 12,
+     "matched": "必亡",
+     "len": 2
+    },
+    {
+     "kind": "利誘好處",
+     "p": "wei-3-03-p0027",
+     "offset": 39,
+     "matched": "何求而不得",
+     "len": 5
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 4
+   }
+  },
+  {
+   "chapterId": "wei-3-04",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-3-04-p0026",
+     "offset": 7,
+     "matched": "何以臣爲",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-3-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "wei-3-05-p0008",
+     "offset": 5,
+     "matched": "譬猶",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-3-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-3-06-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "淳于髠",
+     "addresseeId": "person-chunyu-kun",
+     "marker": "謂",
+     "offset": 8,
+     "text": "謂淳于髠曰"
+    },
+    {
+     "index": 1,
+     "p": "wei-3-06-p0008",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "淳于髠",
+     "addresseeId": "person-chunyu-kun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂淳于髠曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 2,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-3-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-3-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-3-08-p0001",
+     "speaker": "無忌",
+     "speakerId": "person-xinling-jun",
+     "addressee": "魏王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 9,
+     "text": "無忌謂魏王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-3-08-p0007",
+     "offset": 19,
+     "matched": "安能",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "wei-3-08-p0018",
+     "offset": 27,
+     "matched": "危矣",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "wei-3-08-p0019",
+     "offset": 19,
+     "matched": "必亡",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "wei-3-08-p0022",
+     "offset": 15,
+     "matched": "必危",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "wei-3-08-p0023",
+     "offset": 9,
+     "matched": "豈得安哉",
+     "len": 4
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "wei-3-08-p0029",
+     "offset": 56,
+     "matched": "禍必",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "wei-3-08-p0041",
+     "offset": 8,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 7
+   }
+  },
+  {
+   "chapterId": "wei-3-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-3-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "wei-3-10-p0002",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-3-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-3-11-p0012",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "樗里子",
+     "addresseeId": "person-chuli-ji",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂樗里子曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "wei-3-11-p0016",
+     "offset": 6,
+     "matched": "大利",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-4-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-4-05-p0002",
+     "speaker": "樓緩",
+     "speakerId": "person-lou-huan",
+     "addressee": "魏王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "樓緩謂魏王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-4-06-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "穰侯",
+     "addresseeId": "person-wei-ran",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂穰侯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-07",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-4-07-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "新城君",
+     "addresseeId": "person-xincheng-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂新城君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-16",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-4-16-p0004",
+     "offset": 18,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-4-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-18",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-19",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-4-19-p0001",
+     "speaker": "周肖",
+     "speakerId": "person-zhou-xiao",
+     "addressee": "宮他",
+     "addresseeId": "person-gong-ta",
+     "marker": "謂",
+     "offset": 2,
+     "text": "周肖謂宮他曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-20",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-21",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-22",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-4-22-p0009",
+     "offset": 37,
+     "matched": "豈有及哉",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-4-23",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-4-23-p0002",
+     "speaker": "唐且",
+     "speakerId": "person-tang-ju",
+     "addressee": "信陵君",
+     "addresseeId": "person-xinling-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "唐且謂信陵君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-24",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "wei-4-24-p0012",
+     "offset": 16,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-4-25",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-4-25-p0011",
+     "offset": 19,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "wei-4-26",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "wei-4-27",
+   "turns": [
+    {
+     "index": 0,
+     "p": "wei-4-27-p0006",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "唐且",
+     "addresseeId": "person-tang-ju",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂唐且曰"
+    },
+    {
+     "index": 1,
+     "p": "wei-4-27-p0010",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "唐且",
+     "addresseeId": "person-tang-ju",
+     "marker": "謂",
+     "offset": 6,
+     "text": "謂唐且曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "wei-4-27-p0009",
+     "offset": 20,
+     "matched": "豈直五百里哉",
+     "len": 6
+    }
+   ],
+   "stats": {
+    "turns": 2,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-1-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-01-p0002",
+     "speaker": "段規",
+     "speakerId": "person-duan-gui",
+     "addressee": "韓王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "段規謂韓王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "han-1-05-p0014",
+     "offset": 34,
+     "matched": "鄙語曰",
+     "len": 3
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-1-06",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-1-06-p0011",
+     "offset": 11,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-1-07",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-1-07-p0004",
+     "offset": 25,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-1-08",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-08-p0001",
+     "speaker": "張儀",
+     "speakerId": "person-zhang-yi",
+     "addressee": "齊王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "張儀謂齊王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-10",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-10-p0004",
+     "speaker": "陳軫",
+     "speakerId": "person-chen-zhen",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "陳軫謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-12",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-12-p0002",
+     "speaker": "泠向",
+     "speakerId": "person-ling-xiang",
+     "addressee": "鄭彊",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "泠向謂鄭彊曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-14-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "公孫顯",
+     "addresseeId": "person-gongsun-xian",
+     "marker": "謂",
+     "offset": 7,
+     "text": "謂公孫顯曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-15",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-15-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "公仲",
+     "addresseeId": "person-gongzhong",
+     "marker": "謂",
+     "offset": 7,
+     "text": "謂公仲曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-16",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-16-p0003",
+     "speaker": "公仲",
+     "speakerId": "person-gongzhong",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 5,
+     "text": "公仲謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-18",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-18-p0002",
+     "speaker": "顏率",
+     "speakerId": "person-yan-shuai",
+     "addressee": "公仲之謁者",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "顏率謂公仲之謁者曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-19",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-19-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "向壽",
+     "addresseeId": "person-xiang-shou",
+     "marker": "謂",
+     "offset": 5,
+     "text": "謂向壽曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-1-19-p0003",
+     "offset": 25,
+     "matched": "必亡",
+     "len": 2
+    },
+    {
+     "kind": "引書引諺",
+     "p": "han-1-19-p0007",
+     "offset": 0,
+     "matched": "諺曰",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "han-1-20",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-1-20-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "公仲",
+     "addresseeId": "person-gongzhong",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂公仲曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-21",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-22",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-23",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-24",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-1-25",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-2-02-p0003",
+     "speaker": "張儀",
+     "speakerId": "person-zhang-yi",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 8,
+     "text": "張儀謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-2-04-p0001",
+     "speaker": "公仲",
+     "speakerId": "person-gongzhong",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 32,
+     "text": "公仲謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-11",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-2-11-p0004",
+     "offset": 9,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-2-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-15",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-2-15-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "新城君",
+     "addresseeId": "person-xincheng-jun",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂新城君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-16",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-2-16-p0001",
+     "speaker": "公仲",
+     "speakerId": "person-gongzhong",
+     "addressee": "魏王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 13,
+     "text": "公仲謂魏王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-18",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-19",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-20",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-21",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-2-22",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "han-2-22-p0020",
+     "offset": 101,
+     "matched": "獨安可嘿然而止乎",
+     "len": 8
+    },
+    {
+     "kind": "反問詰難",
+     "p": "han-2-22-p0028",
+     "offset": 30,
+     "matched": "豈不殆哉",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "han-3-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-3-01-p0006",
+     "offset": 26,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-3-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-02-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "公仲",
+     "addresseeId": "person-gongzhong",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂公仲曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-3-02-p0002",
+     "offset": 37,
+     "matched": "危矣",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "han-3-02-p0007",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "利誘好處",
+     "p": "han-3-02-p0009",
+     "offset": 35,
+     "matched": "大利",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "han-3-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-04",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-3-04-p0003",
+     "offset": 14,
+     "matched": "大禍",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-3-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "han-3-05-p0009",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "han-3-05-p0013",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "han-3-05-p0024",
+     "offset": 26,
+     "matched": "豈不爲過謀哉",
+     "len": 6
+    },
+    {
+     "kind": "反問詰難",
+     "p": "han-3-05-p0028",
+     "offset": 21,
+     "matched": "豈不爲過謀而不知尊哉",
+     "len": 10
+    },
+    {
+     "kind": "反問詰難",
+     "p": "han-3-05-p0030",
+     "offset": 26,
+     "matched": "豈可不謂善謀哉",
+     "len": 7
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 5
+   }
+  },
+  {
+   "chapterId": "han-3-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-10",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-10-p0002",
+     "speaker": "唐客",
+     "speakerId": "person-tang-ke",
+     "addressee": "公仲",
+     "addresseeId": "person-gongzhong",
+     "marker": "謂",
+     "offset": 2,
+     "text": "唐客謂公仲曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-11-p0003",
+     "speaker": "韓珉",
+     "speakerId": "person-han-min",
+     "addressee": "秦王",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "韓珉謂秦王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-13-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "韓珉",
+     "addresseeId": "person-han-min",
+     "marker": "謂",
+     "offset": 0,
+     "text": "謂韓珉曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-15",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "han-3-15-p0006",
+     "offset": 7,
+     "matched": "何以爲",
+     "len": 3
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-3-16",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-16-p0001",
+     "speaker": "泠向",
+     "speakerId": "person-ling-xiang",
+     "addressee": "陳軫",
+     "addresseeId": "person-chen-zhen",
+     "marker": "謂",
+     "offset": 9,
+     "text": "泠向謂陳軫曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-17",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-18",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-19",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-20",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "han-3-20-p0003",
+     "offset": 8,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-3-21",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "han-3-21-p0008",
+     "offset": 8,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "han-3-22",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-22-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "新城君",
+     "addresseeId": "person-xincheng-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂新城君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "han-3-23",
+   "turns": [
+    {
+     "index": 0,
+     "p": "han-3-23-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "新城君",
+     "addresseeId": "person-xincheng-jun",
+     "marker": "謂",
+     "offset": 4,
+     "text": "謂新城君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-02",
+   "turns": [
+    {
+     "index": 0,
+     "p": "yan-1-02-p0002",
+     "speaker": "蘇秦",
+     "speakerId": "person-su-qin",
+     "addressee": "奉陽君",
+     "addresseeId": "person-li-dui",
+     "marker": "謂",
+     "offset": 9,
+     "text": "蘇秦謂奉陽君曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "yan-1-02-p0004",
+     "offset": 29,
+     "matched": "豈能東無齊、西無趙哉",
+     "len": 10
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "yan-1-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-04",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利誘好處",
+     "p": "yan-1-04-p0017",
+     "offset": 18,
+     "matched": "霸王之業",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "yan-1-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "yan-1-05-p0009",
+     "offset": 24,
+     "matched": "安得",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "yan-1-05-p0019",
+     "offset": 10,
+     "matched": "何罪之有",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "yan-1-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-1-12",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "yan-1-12-p0011",
+     "offset": 23,
+     "matched": "禍必",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "yan-1-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "yan-1-13-p0001",
+     "speaker": "蘇代",
+     "speakerId": "person-su-dai",
+     "addressee": "燕昭王",
+     "addresseeId": "person-yan-zhaowang",
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇代謂燕昭王曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "yan-1-13-p0016",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "yan-1-13-p0018",
+     "offset": 0,
+     "matched": "曩者",
+     "len": 2
+    },
+    {
+     "kind": "類比譬喻",
+     "p": "yan-1-13-p0033",
+     "offset": 8,
+     "matched": "譬",
+     "len": 1
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "yan-1-14",
+   "turns": [
+    {
+     "index": 0,
+     "p": "yan-1-14-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "蘇代",
+     "addresseeId": "person-su-dai",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂蘇代曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-01",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "yan-2-01-p0008",
+     "offset": 10,
+     "matched": "不亦遠乎",
+     "len": 4
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "yan-2-01-p0023",
+     "offset": 14,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "yan-2-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-04",
+   "turns": [
+    {
+     "index": 0,
+     "p": "yan-2-04-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "燕昭王",
+     "addresseeId": "person-yan-zhaowang",
+     "marker": "謂",
+     "offset": 6,
+     "text": "謂燕昭王曰"
+    },
+    {
+     "index": 1,
+     "p": "yan-2-04-p0004",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "閔王",
+     "addresseeId": "person-qi-minwang",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂閔王曰"
+    },
+    {
+     "index": 2,
+     "p": "yan-2-04-p0010",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "蘇子",
+     "addresseeId": "person-su-qin",
+     "marker": "謂",
+     "offset": 1,
+     "text": "謂蘇子曰"
+    },
+    {
+     "index": 3,
+     "p": "yan-2-04-p0018",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "閔王",
+     "addresseeId": "person-qi-minwang",
+     "marker": "謂",
+     "offset": 3,
+     "text": "謂閔王曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 4,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-08",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "yan-2-08-p0006",
+     "offset": 11,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "yan-2-09",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "史例",
+     "p": "yan-2-09-p0037",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "yan-2-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "類比譬喻",
+     "p": "yan-2-10-p0005",
+     "offset": 1,
+     "matched": "譬如",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "yan-2-10-p0012",
+     "offset": 6,
+     "matched": "必危",
+     "len": 2
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "yan-2-10-p0016",
+     "offset": 16,
+     "matched": "必亡",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "yan-2-11",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-12",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-2-13",
+   "turns": [
+    {
+     "index": 0,
+     "p": "yan-2-13-p0005",
+     "speaker": "蘇子",
+     "speakerId": "person-su-qin",
+     "addressee": "燕相",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 2,
+     "text": "蘇子謂燕相曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-3-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-3-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-3-03",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "引書引諺",
+     "p": "yan-3-03-p0016",
+     "offset": 0,
+     "matched": "諺曰",
+     "len": 2
+    },
+    {
+     "kind": "史例",
+     "p": "yan-3-03-p0030",
+     "offset": 0,
+     "matched": "昔者",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "yan-3-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "yan-3-05",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "yan-3-05-p0009",
+     "offset": 10,
+     "matched": "禍必",
+     "len": 2
+    },
+    {
+     "kind": "反問詰難",
+     "p": "yan-3-05-p0059",
+     "offset": 29,
+     "matched": "豈可得哉",
+     "len": 4
+    },
+    {
+     "kind": "反問詰難",
+     "p": "yan-3-05-p0071",
+     "offset": 2,
+     "matched": "豈有意乎",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 3
+   }
+  },
+  {
+   "chapterId": "song-wei-01",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-02",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "song-wei-02-p0005",
+     "offset": 17,
+     "matched": "何罪之有",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "song-wei-03",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-05",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-06",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-10",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-11",
+   "turns": [
+    {
+     "index": 0,
+     "p": "song-wei-11-p0001",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "樗里疾",
+     "addresseeId": "person-chuli-ji",
+     "marker": "謂",
+     "offset": 8,
+     "text": "謂樗里疾曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "song-wei-11-p0008",
+     "offset": 9,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "song-wei-12",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "song-wei-12-p0009",
+     "offset": 8,
+     "matched": "安能",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "song-wei-13",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-14",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "song-wei-15",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-01",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhongshan-01-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "趙襄子",
+     "addresseeId": "person-zhao-xiangzi",
+     "marker": "謂",
+     "offset": 3,
+     "text": "謂趙襄子曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-02",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-03",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhongshan-03-p0004",
+     "speaker": "張登",
+     "speakerId": "person-zhang-deng",
+     "addressee": "藍諸君",
+     "addresseeId": "person-lanzhu-jun",
+     "marker": "謂",
+     "offset": 2,
+     "text": "張登謂藍諸君曰"
+    }
+   ],
+   "devices": [],
+   "stats": {
+    "turns": 1,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-04",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-05",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhongshan-05-p0002",
+     "speaker": null,
+     "speakerId": null,
+     "addressee": "司馬憙",
+     "addresseeId": "person-sima-xi",
+     "marker": "謂",
+     "offset": 2,
+     "text": "謂司馬憙曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhongshan-05-p0002",
+     "offset": 16,
+     "matched": "獨不可語陰簡之美乎",
+     "len": 9
+    },
+    {
+     "kind": "利害威嚇",
+     "p": "zhongshan-05-p0006",
+     "offset": 21,
+     "matched": "必危",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 2
+   }
+  },
+  {
+   "chapterId": "zhongshan-06",
+   "turns": [
+    {
+     "index": 0,
+     "p": "zhongshan-06-p0002",
+     "speaker": "司馬憙",
+     "speakerId": "person-sima-xi",
+     "addressee": "陰姬公",
+     "addresseeId": null,
+     "marker": "謂",
+     "offset": 3,
+     "text": "司馬憙謂陰姬公曰"
+    }
+   ],
+   "devices": [
+    {
+     "kind": "利害威嚇",
+     "p": "zhongshan-06-p0022",
+     "offset": 8,
+     "matched": "危矣",
+     "len": 2
+    }
+   ],
+   "stats": {
+    "turns": 1,
+    "devices": 1
+   }
+  },
+  {
+   "chapterId": "zhongshan-07",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-08",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-09",
+   "turns": [],
+   "devices": [],
+   "stats": {
+    "turns": 0,
+    "devices": 0
+   }
+  },
+  {
+   "chapterId": "zhongshan-10",
+   "turns": [],
+   "devices": [
+    {
+     "kind": "反問詰難",
+     "p": "zhongshan-10-p0026",
+     "offset": 11,
+     "matched": "何神之有",
+     "len": 4
+    }
+   ],
+   "stats": {
+    "turns": 0,
+    "devices": 1
+   }
+  }
+ ],
+ "unresolvedTurns": [
+  {
+   "chapterId": "dongzhou-02",
+   "p": "dongzhou-02-p0008",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-04",
+   "p": "dongzhou-04-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-09",
+   "p": "dongzhou-09-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-13",
+   "p": "dongzhou-13-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-14",
+   "p": "dongzhou-14-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-19",
+   "p": "dongzhou-19-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-20",
+   "p": "dongzhou-20-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "dongzhou-21",
+   "p": "dongzhou-21-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-04",
+   "p": "xizhou-04-p0006",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-05",
+   "p": "xizhou-05-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-06",
+   "p": "xizhou-06-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-06",
+   "p": "xizhou-06-p0004",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-08",
+   "p": "xizhou-08-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-09",
+   "p": "xizhou-09-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-13",
+   "p": "xizhou-13-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "xizhou-14",
+   "p": "xizhou-14-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-03",
+   "p": "qin-1-03-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-04",
+   "p": "qin-1-04-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-06",
+   "p": "qin-1-06-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-08",
+   "p": "qin-1-08-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-09",
+   "p": "qin-1-09-p0004",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-10",
+   "p": "qin-1-10-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-12",
+   "p": "qin-1-12-p0003",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-1-13",
+   "p": "qin-1-13-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-01",
+   "p": "qin-2-01-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-02",
+   "p": "qin-2-02-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-03",
+   "p": "qin-2-03-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-04",
+   "p": "qin-2-04-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-04",
+   "p": "qin-2-04-p0006",
+   "turnIndex": 1,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-09",
+   "p": "qin-2-09-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-11",
+   "p": "qin-2-11-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-2-14",
+   "p": "qin-2-14-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-01",
+   "p": "qin-3-01-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-02",
+   "p": "qin-3-02-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-03",
+   "p": "qin-3-03-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-04",
+   "p": "qin-3-04-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-05",
+   "p": "qin-3-05-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-06",
+   "p": "qin-3-06-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-07",
+   "p": "qin-3-07-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-09",
+   "p": "qin-3-09-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-10",
+   "p": "qin-3-10-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qin-3-14",
+   "p": "qin-3-14-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-4-03",
+   "p": "qin-4-03-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qin-4-04",
+   "p": "qin-4-04-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qi-1-04",
+   "p": "qi-1-04-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qi-1-05",
+   "p": "qi-1-05-p0014",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-1-08",
+   "p": "qi-1-08-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-1-09",
+   "p": "qi-1-09-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-1-11",
+   "p": "qi-1-11-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qi-3-01",
+   "p": "qi-3-01-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qi-3-01",
+   "p": "qi-3-01-p0007",
+   "turnIndex": 1,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qi-3-03",
+   "p": "qi-3-03-p0005",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-3-04",
+   "p": "qi-3-04-p0004",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-3-11",
+   "p": "qi-3-11-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "qi-4-01",
+   "p": "qi-4-01-p0034",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-4-02",
+   "p": "qi-4-02-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-4-04",
+   "p": "qi-4-04-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "qi-4-11",
+   "p": "qi-4-11-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-1-02",
+   "p": "chu-1-02-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-1-05",
+   "p": "chu-1-05-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-1-12",
+   "p": "chu-1-12-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-1-15",
+   "p": "chu-1-15-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-1-15",
+   "p": "chu-1-15-p0008",
+   "turnIndex": 1,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-1-19",
+   "p": "chu-1-19-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-2-01",
+   "p": "chu-2-01-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-2-03",
+   "p": "chu-2-03-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-2-04",
+   "p": "chu-2-04-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-2-06",
+   "p": "chu-2-06-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-2-06",
+   "p": "chu-2-06-p0003",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-2-09",
+   "p": "chu-2-09-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-01",
+   "p": "chu-3-01-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-04",
+   "p": "chu-3-04-p0013",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-06",
+   "p": "chu-3-06-p0009",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-07",
+   "p": "chu-3-07-p0004",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-07",
+   "p": "chu-3-07-p0007",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-07",
+   "p": "chu-3-07-p0010",
+   "turnIndex": 2,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-08",
+   "p": "chu-3-08-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-3-09",
+   "p": "chu-3-09-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-4-02",
+   "p": "chu-4-02-p0009",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-4-03",
+   "p": "chu-4-03-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "chu-4-04",
+   "p": "chu-4-04-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "chu-4-12",
+   "p": "chu-4-12-p0025",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-01",
+   "p": "zhao-1-01-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-01",
+   "p": "zhao-1-01-p0013",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-02",
+   "p": "zhao-1-02-p0029",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-08",
+   "p": "zhao-1-08-p0014",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-08",
+   "p": "zhao-1-08-p0017",
+   "turnIndex": 1,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-11",
+   "p": "zhao-1-11-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-1-13",
+   "p": "zhao-1-13-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-3-02",
+   "p": "zhao-3-02-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-3-03",
+   "p": "zhao-3-03-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-3-06",
+   "p": "zhao-3-06-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-3-08",
+   "p": "zhao-3-08-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-3-09",
+   "p": "zhao-3-09-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-3-13",
+   "p": "zhao-3-13-p0004",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-04",
+   "p": "zhao-4-04-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-04",
+   "p": "zhao-4-04-p0004",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-06",
+   "p": "zhao-4-06-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-07",
+   "p": "zhao-4-07-p0003",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-08",
+   "p": "zhao-4-08-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-10",
+   "p": "zhao-4-10-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "zhao-4-17",
+   "p": "zhao-4-17-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-1-12",
+   "p": "wei-1-12-p0004",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-1-15",
+   "p": "wei-1-15-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-1-18",
+   "p": "wei-1-18-p0004",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-1-19",
+   "p": "wei-1-19-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-1-24",
+   "p": "wei-1-24-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-1-25",
+   "p": "wei-1-25-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-2-04",
+   "p": "wei-2-04-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-2-05",
+   "p": "wei-2-05-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-02",
+   "p": "wei-3-02-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-02",
+   "p": "wei-3-02-p0010",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-03",
+   "p": "wei-3-03-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-06",
+   "p": "wei-3-06-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-06",
+   "p": "wei-3-06-p0008",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-08",
+   "p": "wei-3-08-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-3-11",
+   "p": "wei-3-11-p0012",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-4-05",
+   "p": "wei-4-05-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "wei-4-06",
+   "p": "wei-4-06-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-4-07",
+   "p": "wei-4-07-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-4-27",
+   "p": "wei-4-27-p0006",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "wei-4-27",
+   "p": "wei-4-27-p0010",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-01",
+   "p": "han-1-01-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-08",
+   "p": "han-1-08-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-10",
+   "p": "han-1-10-p0004",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-12",
+   "p": "han-1-12-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-14",
+   "p": "han-1-14-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-15",
+   "p": "han-1-15-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-16",
+   "p": "han-1-16-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-18",
+   "p": "han-1-18-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-19",
+   "p": "han-1-19-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-1-20",
+   "p": "han-1-20-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-anonymous"
+  },
+  {
+   "chapterId": "han-2-02",
+   "p": "han-2-02-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-2-04",
+   "p": "han-2-04-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-2-15",
+   "p": "han-2-15-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-2-16",
+   "p": "han-2-16-p0001",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-3-02",
+   "p": "han-3-02-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-anonymous"
+  },
+  {
+   "chapterId": "han-3-11",
+   "p": "han-3-11-p0003",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "han-3-13",
+   "p": "han-3-13-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-3-22",
+   "p": "han-3-22-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "han-3-23",
+   "p": "han-3-23-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "yan-1-14",
+   "p": "yan-1-14-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "yan-2-04",
+   "p": "yan-2-04-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "yan-2-04",
+   "p": "yan-2-04-p0004",
+   "turnIndex": 1,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "yan-2-04",
+   "p": "yan-2-04-p0010",
+   "turnIndex": 2,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "yan-2-04",
+   "p": "yan-2-04-p0018",
+   "turnIndex": 3,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "yan-2-13",
+   "p": "yan-2-13-p0005",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  },
+  {
+   "chapterId": "song-wei-11",
+   "p": "song-wei-11-p0001",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhongshan-01",
+   "p": "zhongshan-01-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhongshan-05",
+   "p": "zhongshan-05-p0002",
+   "turnIndex": 0,
+   "field": "speaker",
+   "reason": "speaker-not-in-entities"
+  },
+  {
+   "chapterId": "zhongshan-06",
+   "p": "zhongshan-06-p0002",
+   "turnIndex": 0,
+   "field": "addressee",
+   "reason": "addressee-not-in-entities"
+  }
+ ]
+}
